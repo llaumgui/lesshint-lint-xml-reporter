@@ -63,9 +63,9 @@ module.exports = (grunt) ->
   grunt.registerTask 'lint', [
     'eslint',
     'jsonlint',
-    'travis-lint'
     'coffeelint'
     'mdlint'
+    'travis-lint'
   ]
 
   # Alias
