@@ -57,7 +57,10 @@ module.exports = (grunt) ->
 
 # ============================== Callable tasks ============================== #
   grunt.registerTask 'travis', [
-    'lint'
+    'eslint',
+    'jsonlint',
+    'coffeelint'
+    'travis-lint'
   ]
 
   grunt.registerTask 'lint', [
@@ -69,4 +72,4 @@ module.exports = (grunt) ->
   ]
 
   # Alias
-  grunt.registerTask 'default', 'travis'
+  grunt.registerTask 'default', 'lint'
