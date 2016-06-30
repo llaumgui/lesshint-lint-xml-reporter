@@ -2,7 +2,7 @@
 
 'use strict';
 module.exports = {
-    name: 'lint-xml',
+    name: 'lesshint-lint-xml-reporter',
     report: function report (results) {
         var resultsByfiles = {};
         var output = '';
