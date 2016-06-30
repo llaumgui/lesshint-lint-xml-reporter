@@ -14,6 +14,6 @@ npm install lesshint-lint-xml-reporter
 Use [lesshint](https://github.com/lesshint/lesshint) with `-r` or `--reporter` option:
 
 ```bash
-lesshint --reporter lint-xml file.less
-lesshint --reporter /path/to/lesshint-lint-xml-reporter/lint-xml .js file.less
+lesshint --reporter lesshint-lint-xml-reporter file.less
+lesshint --reporter /path/to/lesshint-lint-xml-reporter/reporter.js file.less
 ```
