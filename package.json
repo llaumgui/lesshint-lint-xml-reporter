@@ -19,6 +19,9 @@
     "lesshint",
     "reporter"
   ],
+  "engines" : {
+    "node" : ">=4.0.0"
+  },
   "dependencies": {
   },
   "devDependencies": {
