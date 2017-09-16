@@ -29,7 +29,7 @@ module.exports = {
             if (resultsByfiles[result.file] === undefined) {
                 resultsByfiles[result.file] = '';
             }
-            resultsByfiles[result.fullPath] += output + ' />\n';
+            resultsByfiles[result.file] += output + ' />\n';
         });
 
         Object.keys(resultsByfiles).forEach(function (file) {
