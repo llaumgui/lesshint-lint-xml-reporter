@@ -1,1 +1,6 @@
+.codeclimate.yml
+.coffeelintrc
+.editorconfig
+.eslintrc.json
+.travis.yml
 Gruntfile.coffee
