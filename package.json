@@ -1,7 +1,7 @@
 {
   "name": "lesshint-lint-xml-reporter",
   "description": "A lesshint's reporter using the same lint-xml format that CSSLint. Can be used by Jenkins.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./reporter.js",
   "homepage": "https://github.com/llaumgui/lesshint-lint-xml-reporter",
   "author": {
@@ -20,13 +20,12 @@
     "reporter"
   ],
   "dependencies": {
-    "mdlint": "^0.1.0"
   },
   "devDependencies": {
-    "grunt": "latest",
-    "grunt-coffeelint": "latest",
-    "grunt-eslint": "latest",
-    "grunt-jsonlint": "latest",
+    "grunt": "^1.1.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-eslint": "^23.0.0",
+    "grunt-jsonlint": "^2.1.2",
     "grunt-markdownlint": "^3.0.0"
   },
   "scripts": {
