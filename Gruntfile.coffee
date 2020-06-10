@@ -2,7 +2,6 @@ module.exports = (grunt) ->
 
 # =============================== Load plugins =============================== #
   grunt.loadNpmTasks 'grunt-eslint'
-  grunt.loadNpmTasks 'grunt-travis-lint'
   grunt.loadNpmTasks 'grunt-jsonlint'
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-mdlint'
@@ -56,19 +55,11 @@ module.exports = (grunt) ->
 
 
 # ============================== Callable tasks ============================== #
-  grunt.registerTask 'travis', [
-    'eslint',
-    'jsonlint',
-    'coffeelint'
-    'travis-lint'
-  ]
-
-  grunt.registerTask 'lint', [
+  grunt.registerTask 'test', [
     'eslint',
     'jsonlint',
     'coffeelint'
     'mdlint'
-    'travis-lint'
   ]
 
   # Alias

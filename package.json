@@ -27,14 +27,12 @@
   "devDependencies": {
     "grunt": "latest",
     "grunt-eslint": "latest",
-    "grunt-travis-lint": "latest",
     "grunt-jsonlint": "latest",
     "grunt-coffeelint": "latest",
     "grunt-mdlint": "latest"
   },
   "scripts": {
-    "test": "grunt travis --verbose",
-    "lint": "grunt lint --verbose"
+    "test": "grunt test --verbose"
   },
   "license": "MIT",
   "bugs": {
