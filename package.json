@@ -19,17 +19,15 @@
     "lesshint",
     "reporter"
   ],
-  "engines" : {
-    "node" : ">=4.0.0"
-  },
   "dependencies": {
+    "mdlint": "^0.1.0"
   },
   "devDependencies": {
     "grunt": "latest",
+    "grunt-coffeelint": "latest",
     "grunt-eslint": "latest",
     "grunt-jsonlint": "latest",
-    "grunt-coffeelint": "latest",
-    "grunt-mdlint": "latest"
+    "grunt-markdownlint": "^3.0.0"
   },
   "scripts": {
     "test": "grunt test --verbose"

@@ -4,7 +4,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-eslint'
   grunt.loadNpmTasks 'grunt-jsonlint'
   grunt.loadNpmTasks 'grunt-coffeelint'
-  grunt.loadNpmTasks 'grunt-mdlint'
+  grunt.loadNpmTasks 'grunt-markdownlint'
 
 
 # ================================= Settings ================================= #
@@ -48,8 +48,10 @@ module.exports = (grunt) ->
         configFile: '.coffeelintrc'
 
     # MarkDown
-    mdlint:
-      default: [
+    markdownlint:
+      options:
+        config: grunt.file.readJSON '.markdownlint.json'
+      src: [
         '*.md'
       ]
 
@@ -59,7 +61,7 @@ module.exports = (grunt) ->
     'eslint',
     'jsonlint',
     'coffeelint'
-    'mdlint'
+    'markdownlint'
   ]
 
   # Alias

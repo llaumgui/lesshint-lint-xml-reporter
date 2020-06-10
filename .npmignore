@@ -1,4 +1,6 @@
 .coffeelintrc
 .editorconfig
 .eslintrc.json
+.markdownlint.json
 Gruntfile.coffee
+sonar-project.properties
