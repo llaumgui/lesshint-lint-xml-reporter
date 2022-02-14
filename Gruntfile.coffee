@@ -27,7 +27,7 @@ module.exports = (grunt) ->
     # JS
     eslint:
       options:
-        configFile: '.eslintrc.json'
+        overrideConfigFile: '.eslintrc.json'
       target: ['*.js']
 
     # JSON
