@@ -1,4 +1,3 @@
-'use strict';
 module.exports = {
     name: 'lesshint-lint-xml-reporter',
     report: function report (results) {

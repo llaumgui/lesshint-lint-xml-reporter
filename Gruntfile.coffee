@@ -8,7 +8,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-eslint'
   grunt.loadNpmTasks 'grunt-jsonlint'
   grunt.loadNpmTasks 'grunt-coffeelint'
-  grunt.loadNpmTasks 'grunt-markdownlint'
 
 # ================================= Settings ================================= #
   # Force use of Unix newlines
@@ -79,8 +78,6 @@ module.exports = (grunt) ->
     # ------
     # JS
     eslint:
-      options:
-        overrideConfigFile: '.eslintrc.json'
       target: ['src/*.js']
     # JSON
     jsonlint:

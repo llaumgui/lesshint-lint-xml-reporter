@@ -23,13 +23,12 @@
     "coffeescript": "latest",
     "grunt": "latest",
     "grunt-coffeelint": "latest",
-    "grunt-eslint": "latest",
-    "grunt-jsonlint": "latest",
-    "grunt-markdownlint": "latest",
     "grunt-contrib-clean": "latest",
     "grunt-contrib-compress": "latest",
     "grunt-contrib-copy": "latest",
-    "grunt-contrib-uglify": "latest"
+    "grunt-contrib-uglify": "latest",
+    "grunt-eslint": "latest",
+    "grunt-jsonlint": "latest"
   },
   "scripts": {
     "test": "grunt test --verbose",
