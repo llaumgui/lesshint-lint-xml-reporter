@@ -10,4 +10,6 @@ We release patches for security vulnerabilities. Which versions are eligible rec
 
 ## Reporting a Vulnerability
 
-Please report (suspected) security vulnerabilities to guillaume@kulakowski.fr. You will receive a response from us within 48 hours. If the issue is confirmed, we will release a patch as soon as possible depending on complexity but historically within a few days.
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.
