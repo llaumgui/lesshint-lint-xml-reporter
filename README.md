@@ -1,6 +1,6 @@
 # lesshint-lint-xml-reporter
 
-[![Author][ico-twitter]][link-twitter]
+[![Author][ico-bluesky]][link-bluesky]
 [![Software License][ico-license]](LICENSE)
 [![Build Status][ico-ghactions]][link-ghactions]
 [![Latest Version][ico-version]][link-npm]
@@ -30,8 +30,8 @@ lesshint --reporter lesshint-lint-xml-reporter file.less
 lesshint --reporter /path/to/lesshint-lint-xml-reporter/reporter.js file.less
 ```
 
-[ico-twitter]: https://img.shields.io/static/v1?label=Author&message=llaumgui&color=000&logo=x&style=flat-square
-[link-twitter]: https://twitter.com/llaumgui
+[ico-bluesky]: https://img.shields.io/static/v1?label=Author&message=llaumgui&color=208bfe&logo=bluesky&style=flat-square
+[link-bluesky]: https://bsky.app/profile/llaumgui.kulakowski.fr
 [ico-ghactions]: https://img.shields.io/github/actions/workflow/status/llaumgui/lesshint-lint-xml-reporter/devops.yml?label=DevOps&logo=github&style=flat-square
 [link-ghactions]: https://github.com/llaumgui/lesshint-lint-xml-reporter/actions
 [ico-version]: https://img.shields.io/npm/v/lesshint-lint-xml-reporter?include_prereleases&label=Package%20version&style=flat-square&logo=npm
