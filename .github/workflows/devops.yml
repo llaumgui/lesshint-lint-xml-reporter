@@ -154,6 +154,6 @@ jobs:
           asset_name: lesshint-lint-xml-reporter-${{ env.RELEASE_VERSION }}.tar.gz
           asset_content_type: application/tar+gzip
       - name: Create NPM release
-        uses: JS-DevTools/npm-publish@v3
+        uses: JS-DevTools/npm-publish@v4
         with:
           token: ${{ secrets.NPM_TOKEN }}
